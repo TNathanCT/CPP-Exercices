@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int ThisisaNumber;
+    cout<<"Please enter a number: ";
+    cin<<ThisisaNumber;
+    cin.ignore();
+    cout<<"You entered: "<<ThisisaNumber<<"\n";
+    cin.get();
+}
