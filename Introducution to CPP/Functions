@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int multi (int x, int y);
+
+int main(){
+  int x, y;
+  cout<<"Please input two members to be multiplied: ";
+  cin>>x>>y;
+  cin.ignore();
+  cout<<"The product of your numbers is : "<<mult(x,y)<<"\n";
+  cin.get();
+}
+int mult(int x, y){
+  return x y ;
+}
+  
+  
+  
