@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+void Playgame(){
+    cout<<"Play game called : ";
+}
+
+void Loadgame(){
+   cout <<"Load game called : ";
+}
+
+void Multiplayer(){
+  cout <<"Play multiplayer game called : ";
+}
+
+int main(){
+  int input;
+  cout<<"1. Play game\n"; cout<<"2.Load game\n"; cout<<"3.Play multiplayer\n"; cout<<"4.Exit\n"; cout<<"Selection\n";
+  cin>>input;
+  
+  switch(input){
+      case 1:
+      Playgame();
+      break;
+      
+      case 2:
+      Loadgame();
+      break;
+      
+      case 3:
+      Multiplayer();
+      break;
+      
+      default:
+      cout<<"Exit\n";
+      break;
+      
+}
+    
