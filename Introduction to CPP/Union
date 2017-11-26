@@ -1,0 +1,14 @@
+#include <iosteam>
+using namespace std;
+
+structure xampl{
+    intx;};
+    
+int main(){
+    xample structure;
+    xample *ptr;
+    structure.x = 12;
+    ptr = &structure;
+    cout<<ptr -> x;
+    cin.get();
+    }
