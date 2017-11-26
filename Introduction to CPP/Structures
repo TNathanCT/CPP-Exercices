@@ -1,0 +1,12 @@
+struct database{
+    int id_number;
+    int age;
+    float salary;
+    };
+    
+int main(){
+    database employee;
+    employee.age = 22;
+    employee.id_number = 27;
+    employee.salary = 12 000.21;
+    }
