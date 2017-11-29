@@ -7,3 +7,31 @@ int main(){
   cin.getline(string, 256, '\n');
   cout<<"Your long string was: "<<string<<endl;
   cin.get();
+  
+  -------------------------------------------------------------------
+  
+  #include<iostream>
+  #include<cstring>
+  using namespace std;
+  
+  int main(){
+    char name[50]; 
+    char lastname[50];
+    char fullname[100];
+    
+    cout <<"Please enter your name: ";
+    cin.getline(name, 50);
+    if(stremp (name, "Julienne") ==0
+      cout<<"That's my name too.\n";
+    else
+      cout<<"That's not my name.\n";
+   
+   cout<<"Your name is: "<<string(name)<<"letters long.\n";
+   cout<<"Enter your last name:";
+   cin.getline(lastname, 50);
+   fullename[0] = '\0';
+   strcat(fullname, name);
+   strcat(fullname, " ");
+   stract(fullname, lastname);
+   cout<<"Your full name is " <<fullname<<"\n";
+   cin.get();}
