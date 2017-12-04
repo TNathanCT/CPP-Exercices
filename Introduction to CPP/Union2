@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+struct xample{
+  int x, };
+
+int main(){
+  xample structure;
+  xample *ptr;
+  structure.x = 12;
+  ptr=&structure;
+  cout<<ptr->x;
+  cin.get();
+  
+}
+  
