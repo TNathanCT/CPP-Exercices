@@ -1,0 +1,47 @@
+int main(){
+
+  int lightX;
+  int lightY;
+  int ThorX;
+  int ThorY;
+  
+  cin >>LightX>>LightY>>ThorX>>ThoyY;
+  
+  int distanceX = LightX - ThorX;
+  int distanceY = LightY - ThorY;
+  
+  char dirName[4] = {'N', 'E', 'S', 'W'};
+  
+  
+  while(1){
+    int energy; 
+    cin>>E;
+    char dir[2] = {'\0', '\0'};
+    char *cd = &dir[0];
+    
+    if(distanceY != 0){
+      *cd = distanceY > 0 ? dirName[2] : dirName[0];
+      distanceY += distanceY > 0 ? -1 : 1;
+      
+      cd= &dir[1];
+    
+    }
+    
+    
+    if(distanceX != 0){
+      *cd = distanceX > 0 ? dirName[1] : dirName[3];
+      distanceX += distanceX > 0 ? -1 : 1;
+        
+   }
+  
+   if(dir[1] !='\0'){
+      cout<<dir[0]<<dir[1]<<endl;
+   
+   } 
+   
+   else{
+    cout<<dir[0]<<endl;
+   }
+  
+
+}
